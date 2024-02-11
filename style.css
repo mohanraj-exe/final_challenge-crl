@@ -143,7 +143,7 @@ img{
 }
 
 .hero__title{
-    font-size: 5.625rem;
+    font-size: 3.75rem;
     line-height: 1.1;
     margin-top: 0;
 }
@@ -212,7 +212,7 @@ img{
 }
 
 .section-five__title{
-    font-size: 3.75rem;
+    font-size: 3.5rem;
     line-height: 1.2;
     color: #ffffff;
     margin-top: 0;
@@ -246,12 +246,20 @@ img{
 /* Media queries */
 @media (min-width: 700px) and (max-width: 1000px){
 
+    .hero__title{
+        font-size: 5.125rem;
+    }
+
    .section-four aside {
         display: flex;
    }
 
    .section-four--col + .section-four--col{
         margin-left: 1em;
+   }
+
+   .section-five__title{
+        font-size: 3.65rem;
    }
 }
 
@@ -330,6 +338,7 @@ img{
 
     /* footer-section-five-start */
     .section-five__title{
+        font-size: 3.75rem;
         text-align: center;
     }
     /* footer-section-five-end */
